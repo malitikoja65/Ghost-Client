@@ -62,7 +62,7 @@ Title.Position = UDim2.new(0.5, 0, 0.0500000007, 0)
 Title.Size = UDim2.new(0.899999976, 0, 0.200000003, 0)
 Title.ZIndex = 4
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Pets GO"
+Title.Text = "Ghost Client"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -103,3 +103,79 @@ UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 UIListLayout.Padding = UDim.new(0, 10)
+
+New.Name = "New"
+New.Parent = Log
+New.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+New.BackgroundTransparency = 0.950
+New.BorderColor3 = Color3.fromRGB(0, 0, 0)
+New.BorderSizePixel = 0
+New.Position = UDim2.new(-0.00932140276, 0, 0.250000179, 0)
+New.Size = UDim2.new(0.444071531, 0, 0.423863351, 0)
+New.ZIndex = 5
+New.Font = Enum.Font.GothamBold
+New.Text = "Blade Ball"
+New.TextColor3 = Color3.fromRGB(255, 255, 255)
+New.TextScaled = true
+New.TextSize = 14.000
+New.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = Old
+
+UIStroke.Color = Color3.fromRGB(40, 40, 40)
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.Parent = Old
+
+Old.Name = "Old"
+Old.Parent = Log
+Old.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Old.BackgroundTransparency = 0.950
+Old.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Old.BorderSizePixel = 0
+Old.Size = UDim2.new(0.444000006, 0, 0.423999995, 0)
+Old.ZIndex = 5
+Old.Font = Enum.Font.GothamBold
+Old.Text = "Pets GO"
+Old.TextColor3 = Color3.fromRGB(255, 255, 255)
+Old.TextScaled = true
+Old.TextSize = 14.000
+Old.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = New
+
+UIStroke_2.Color = Color3.fromRGB(40, 40, 40)
+UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_2.Parent = New
+
+Hiden.Name = "Hiden"
+Hiden.Parent = Frame
+Hiden.AnchorPoint = Vector2.new(0.5, 0.5)
+Hiden.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hiden.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hiden.BorderSizePixel = 0
+Hiden.Position = UDim2.new(0.5, 0, 1.5, 0)
+Hiden.Size = UDim2.new(1, 0, 1, 0)
+Hiden.ZIndex = 10
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Hiden
+
+Title_3.Name = "Title"
+Title_3.Parent = Hiden
+Title_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Title_3.Size = UDim2.new(0.899999976, 0, 0.200000003, 0)
+Title_3.ZIndex = 11
+Title_3.Font = Enum.Font.RobotoMono
+Title_3.Text = "Loading..."
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
