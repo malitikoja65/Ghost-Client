@@ -49,7 +49,7 @@ DropShadow.Image = "rbxassetid://6014261993"
 DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 DropShadow.ImageTransparency = 0.500
 DropShadow.ScaleType = Enum.ScaleType.Slice
-DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+DropShadow.SliceCenter = Rect.new(90, 90, 450, 450)
 
 Title.Name = "Title"
 Title.Parent = Frame
@@ -62,7 +62,7 @@ Title.Position = UDim2.new(0.5, 0, 0.0500000007, 0)
 Title.Size = UDim2.new(0.899999976, 0, 0.200000003, 0)
 Title.ZIndex = 4
 Title.Font = Enum.Font.GothamBold
-Title.Text = "BLADE BALL"
+Title.Text = "Ghost Client"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -114,7 +114,7 @@ Old.Position = UDim2.new(-0.00932140276, 0, 0.250000179, 0)
 Old.Size = UDim2.new(0.444071531, 0, 0.423863351, 0)
 Old.ZIndex = 5
 Old.Font = Enum.Font.GothamBold
-Old.Text = "NEW VERSION"
+Old.Text = "Blade Ball"
 Old.TextColor3 = Color3.fromRGB(255, 255, 255)
 Old.TextScaled = true
 Old.TextSize = 14.000
@@ -136,7 +136,7 @@ New.BorderSizePixel = 0
 New.Size = UDim2.new(0.444000006, 0, 0.423999995, 0)
 New.ZIndex = 5
 New.Font = Enum.Font.GothamBold
-New.Text = "OLD VERSION"
+New.Text = "Pets GO"
 New.TextColor3 = Color3.fromRGB(255, 255, 255)
 New.TextScaled = true
 New.TextSize = 14.000
@@ -222,6 +222,6 @@ end)
 Old.MouseButton1Click:Connect(function()
 	starteffect()
 	pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/BetaTest/Bladeball15m.html"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/malitikoja65/Ghost-Client/refs/heads/main/loader.lua"))()
 	end)
 end)
