@@ -179,3 +179,22 @@ Title_3.TextScaled = true
 Title_3.TextSize = 14.000
 Title_3.TextWrapped = true
 
+
+for i,v:TextButton in ipairs(Log:GetChildren()) do
+	if v:isA('TextButton') then
+		v.MouseEnter:Connect(function()
+			game:GetService('TweenService'):Create(v,TweenInfo.new(0.3,Enum.EasingStyle.Quint),{Size=UDim2.new(0.474071531, 0, 0.453863351, 0)}):Play()
+			game.TweenService:Create(v:FindFirstChild('UIStroke'),TweenInfo.new(0.1),{
+				Color = Color3.fromRGB(112, 112, 112)
+			}):Play()
+		end)
+
+		v.MouseLeave:Connect(function()
+			game.TweenService:Create(v:FindFirstChild('UIStroke'),TweenInfo.new(0.1),{
+				Color = Color3.fromRGB(40, 40, 40)
+			}):Play()
+			game:GetService('TweenService'):Create(v,TweenInfo.new(0.3,Enum.EasingStyle.Quint),{Size=UDim2.new(0.444071531, 0, 0.423863351, 0)}):Play()
+		end)
+	end	
+end
+
