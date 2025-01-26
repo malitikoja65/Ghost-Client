@@ -104,21 +104,21 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 UIListLayout.Padding = UDim.new(0, 10)
 
-Old.Name = "Old"
-Old.Parent = Log
-Old.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Old.BackgroundTransparency = 0.950
-Old.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Old.BorderSizePixel = 0
-Old.Position = UDim2.new(-0.00932140276, 0, 0.250000179, 0)
-Old.Size = UDim2.new(0.444071531, 0, 0.423863351, 0)
-Old.ZIndex = 5
-Old.Font = Enum.Font.GothamBold
-Old.Text = "Blade Ball"
-Old.TextColor3 = Color3.fromRGB(255, 255, 255)
-Old.TextScaled = true
-Old.TextSize = 14.000
-Old.TextWrapped = true
+New.Name = "New"
+New.Parent = Log
+New.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+New.BackgroundTransparency = 0.950
+New.BorderColor3 = Color3.fromRGB(0, 0, 0)
+New.BorderSizePixel = 0
+New.Position = UDim2.new(-0.00932140276, 0, 0.250000179, 0)
+New.Size = UDim2.new(0.444071531, 0, 0.423863351, 0)
+New.ZIndex = 5
+New.Font = Enum.Font.GothamBold
+New.Text = "Blade Ball"
+New.TextColor3 = Color3.fromRGB(255, 255, 255)
+New.TextScaled = true
+New.TextSize = 14.000
+New.TextWrapped = true
 
 UICorner_2.CornerRadius = UDim.new(0, 3)
 UICorner_2.Parent = Old
@@ -127,20 +127,20 @@ UIStroke.Color = Color3.fromRGB(40, 40, 40)
 UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 UIStroke.Parent = Old
 
-New.Name = "New"
-New.Parent = Log
-New.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-New.BackgroundTransparency = 0.950
-New.BorderColor3 = Color3.fromRGB(0, 0, 0)
-New.BorderSizePixel = 0
-New.Size = UDim2.new(0.444000006, 0, 0.423999995, 0)
-New.ZIndex = 5
-New.Font = Enum.Font.GothamBold
-New.Text = "Pets GO"
-New.TextColor3 = Color3.fromRGB(255, 255, 255)
-New.TextScaled = true
-New.TextSize = 14.000
-New.TextWrapped = true
+Old.Name = "Old"
+Old.Parent = Log
+Old.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Old.BackgroundTransparency = 0.950
+Old.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Old.BorderSizePixel = 0
+Old.Size = UDim2.new(0.444000006, 0, 0.423999995, 0)
+Old.ZIndex = 5
+Old.Font = Enum.Font.GothamBold
+Old.Text = "Pets GO"
+Old.TextColor3 = Color3.fromRGB(255, 255, 255)
+Old.TextScaled = true
+Old.TextSize = 14.000
+Old.TextWrapped = true
 
 UICorner_3.CornerRadius = UDim.new(0, 3)
 UICorner_3.Parent = New
@@ -215,7 +215,7 @@ end
 New.MouseButton1Click:Connect(function()
 	starteffect()
 	pcall(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/Loader.json'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/BetaTest/Bladeball15m.html'))()
 	end)
 end)
 
