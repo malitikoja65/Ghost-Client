@@ -1,4 +1,4 @@
-local ScreenGui1 = Instance.new("ScreenGui")
+local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DropShadow = Instance.new("ImageLabel")
@@ -16,10 +16,10 @@ local Hiden = Instance.new("Frame")
 local UICorner_4 = Instance.new("UICorner")
 local Title_3 = Instance.new("TextLabel")
 
-ScreenGui1.Parent = game:FindFirstChild('CoreGui') or game.Players.LocalPlayer.PlayerGui
-ScreenGui1.ResetOnSpawn = false
-ScreenGui1.ZIndexBehavior = Enum.ZIndexBehavior.Global
-ScreenGui1.IgnoreGuiInset = true
+ScreenGui.Parent = game:FindFirstChild('CoreGui') or game.Players.LocalPlayer.PlayerGui
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+ScreenGui.IgnoreGuiInset = true
 
 Frame.Parent = ScreenGui
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
